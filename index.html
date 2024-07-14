@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça-Palavras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Caça-Palavras</h1>
+        <div id="nivel">
+            <label for="dificuldade">Escolha o nível:</label>
+            <select id="dificuldade">
+                <option value="facil">Fácil</option>
+                <option value="medio">Médio</option>
+                <option value="dificil">Difícil</option>
+                <option value="extremo">Extremo</option>
+            </select>
+            <br><br>
+            <button id="iniciar">Iniciar Jogo</button>
+            <br><br>
+            <div id="palavras-container">
+                <ul id="palavras-col-1"></ul>
+                <ul id="palavras-col-2"></ul>
+                <ul id="palavras-col-3"></ul>
+            </div>
+            <div id="grid-container"></div>
+            <br>
+            <button id="desistir" class="disabled">Desistir</button>
+            <button id="proximo" class="disabled">Próximo Jogo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
